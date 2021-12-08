@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>
+
+</title>
+     
+    <script type="text/javascript" src="1005_files/jquery.js"></script>
+    
+
+    <script src="1005_files/MathJax.js" id=""></script>
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600italic,700italic,800italic,300italic"><link type="text/css" rel="Stylesheet" href="1005_files/bootstrap.css"><link type="text/css" rel="Stylesheet" href="1005_files/bootstrap-theme.css"><link type="text/css" rel="Stylesheet" href="1005_files/viewSubmissions.css"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">  
+
+
+    <script type="text/x-mathjax-config;executed=true">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$$$','$$$'], ["\\(","\\)"] ],
+          processEscapes: true
+        }
+      });
+    </script>
+
+    
+<style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style type="text/css">.MathJax_Display {text-align: center; margin: 1em 0em; position: relative; display: block!important; text-indent: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; width: 100%}
+.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MathJax .MJX-monospace {font-family: monospace}
+.MathJax .MJX-sans-serif {font-family: sans-serif}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; padding: 0; margin: 0}
+.MathJax:focus, body :focus .MathJax {display: inline-table}
+.MathJax.MathJax_FullWidth {text-align: center; display: table-cell!important; width: 10000em!important}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!important; vertical-align: 0!important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+.MathJax nobr {white-space: nowrap!important}
+.MathJax img {display: inline!important; float: none!important}
+.MathJax * {transition: none; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax_Processed {display: none!important}
+.MathJax_ExBox {display: block!important; overflow: hidden; width: 1px; height: 60ex; min-height: 0; max-height: none}
+.MathJax .MathJax_EmBox {display: block!important; overflow: hidden; width: 1px; height: 60em; min-height: 0; max-height: none}
+.MathJax_LineBox {display: table!important}
+.MathJax_LineBox span {display: table-cell!important; width: 10000em!important; min-width: 0; max-width: none; padding: 0; border: 0; margin: 0}
+.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+@font-face {font-family: MathJax_Main; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf?V=2.7.1') format('opentype')}
+@font-face {font-family: MathJax_Main; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf?V=2.7.1') format('opentype'); font-weight: bold}
+@font-face {font-family: MathJax_Main; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf?V=2.7.1') format('opentype'); font-style: italic}
+@font-face {font-family: MathJax_Math; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf?V=2.7.1') format('opentype'); font-style: italic}
+@font-face {font-family: MathJax_Caligraphic; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf?V=2.7.1') format('opentype')}
+@font-face {font-family: MathJax_Size1; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf?V=2.7.1') format('opentype')}
+@font-face {font-family: MathJax_Size2; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf?V=2.7.1') format('opentype')}
+@font-face {font-family: MathJax_Size3; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf?V=2.7.1') format('opentype')}
+@font-face {font-family: MathJax_Size4; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf?V=2.7.1') format('opentype')}
+.MathJax .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style type="text/css">@font-face {font-family: MathJax_AMS; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_AMS-Regular.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf?V=2.7.1') format('opentype')}
+</style></head>
+<body data-gr-c-s-loaded="true" cz-shortcut-listen="true"><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px none; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"></div></div><div id="MathJax_Message" style="display: none;"></div>
+    
+        <div id="SubmissionViewBreadCrumbWrapper"> </div>         
+        <div id="contentWrapper" class="MainContentWrapper">   
+           
+    
+
+	
+    
+
+
+
+
+
+<div class="col-lg-8 col-md-12 col-xm-12"> 
+    <h3>
+        <span id="ctl00_MainContent_ctl00_lblSubmissionID">1005</span>
+    </h3>
+    <span id="ctl00_MainContent_ctl00_submissionTitle" class="submissionTitle">Attention-Gated Convolutional Neural Networks
+for Off-Resonance Correction of Spiral Real-Time Magnetic Resonance Imaging</span>
+    <div id="ctl00_MainContent_ctl00_autherBlock">        
+        <div id="ctl00_MainContent_ctl00_AuthorsAndAffiliationsBlock_divBlockContainer" class="AffiliationBlockContainer">
+    Yongwan Lim<sup>1</sup>, Shrikanth S Narayanan<sup>1</sup>, and Krishna S Nayak<sup>1</sup><i><br><sup>1</sup>University of Southern California, Los Angeles, CA, United States</i>
+</div>
+
+
+    </div>
+
+    <div id="ctl00_MainContent_ctl00_sectionsWrapper" class="sectionsWrapper">
+	        
+    <div class="divSectionBlock"><h3>Synopsis</h3><p class="synopsis">Spiral
+acquisitions are preferred in real-time MRI because of their efficiency, which
+has made it possible to capture vocal tract dynamics during natural speech. A fundamental
+limitation of spirals is blurring and signal loss due to off-resonance, which
+degrades image quality at air-tissue boundaries. Here, we present a new CNN-based
+off-resonance correction method that incorporates an attention-gate mechanism.
+This leverages spatial and channel relationships of filtered outputs and improves
+the expressiveness
+of the networks. We demonstrate improved performance with
+the attention-gate, on 1.5T spiral speech RT-MRI, compared to existing off-resonance
+correction methods.
+ 
+ </p></div><div class="divSectionBlock"><h3>Introduction</h3>Blurring
+and signal loss due to off-resonance are the primary limitations of spiral MRI<sup>1–3</sup>. In the context of speech real-time
+MRI (<strong>RT-MRI</strong>), off-resonance degrades image quality most significantly at
+air-tissue boundaries<sup>4–6</sup>, which are the exact locations of
+interest. Blurring and signal loss is the result of a
+complex-valued spatially varying convolution. In order to resolve the artifact,
+conventional methods<sup>7–12</sup> reconstruct basis
+images at demodulation frequencies and apply spatially-varying masks to the
+basis images to form a desired sharp image. <br>
+
+Recently, convolutional neural network (<strong>CNN</strong>)
+approaches have shown promise in solving this spiral deblurring task<sup>13,14</sup>. The conventional
+methods require field maps<sup>7,8</sup> or focus
+metrics<sup>9,11,12</sup> to estimate
+the spatially-varying mask. One of the advantages of CNN is that once trained, ReLU
+nonlinearity provides the mask to convolution filters, enabling spatially-varying
+convolution<sup>15</sup>. Since ReLU masks
+out the activation in an element-wise manner, it cannot exploit local spatial or
+channel (filter) dependency, unlike the conventional methods. <br>
+
+In this work, we present a CNN-based deblurring
+method that adapts the attention-gate (<strong>AG</strong>) mechanism (<strong>AG-CNN</strong>) to
+exploit spatial and channel relationships of filtered outputs to improve the
+expressiveness of the networks<sup>16–18</sup>. We demonstrate
+improved deblurring performance for 1.5T spiral speech RT-MRI, compared to
+a recent CNN study<sup>14</sup>, and several conventional
+methods. </div><div class="divSectionBlock"><h3>Methods</h3><u>Network Architecture</u><br>
+
+We use a simple 3-layer
+residual CNN architecture<sup>14</sup> and incorporate a proposed AG module at each
+convolutional layer, as illustrated in <strong>Figure 1</strong>. The AG takes the output feature maps (<strong>F</strong>) from a convolution unit as
+an input and performs two cascaded depth-wise separable convolutions to
+generate attention maps (<strong>M</strong>) in the range from 0 to 1. Depth-wise
+separable convolution<sup>19</sup> is used to improve the AG module in both performance
+and overhead. The attention maps <strong>M</strong> learn to identify salient image
+regions and channels adaptively for given feature maps <strong>F</strong>, and they preserve
+only the activation relevant to the deblurring task in the following
+convolution layers. The AG multiplies the attention map by the convolution
+output (i.e., <strong>F’ = M(F)<span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-1-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo&gt;&amp;#x2297;&lt;/mo&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-1" style="width: 1.031em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.8em; height: 0px; font-size: 125%;"><span style="position: absolute; clip: rect(1.646em, 1000.74em, 2.654em, -1000em); top: -2.4em; left: 0em;"><span class="mrow" id="MathJax-Span-2"><span class="mo" id="MathJax-Span-3" style="font-family: MathJax_Main;">⊗</span></span><span style="display: inline-block; width: 0px; height: 2.4em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.175em; border-left: 0px solid; width: 0px; height: 0.975em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⊗</mo></math></span></span><script type="math/tex" id="MathJax-Element-1">\otimes</script>F</strong>) to emphasize important
+elements in space and across channels.<br><br><u>Training Data</u>
+<br>
+
+2D RT-MRI data from 33 subjects were acquired at our
+institution on a 1.5T scanner (Signa Excite, GE Healthcare, Waukesha, WI) using
+a vocal-tract imaging protocol<sup>20</sup>. It uses a short readout (2.52ms) spiral spoiled-gradient-echo sequence.
+Ground truth images were obtained after off-resonance correction<sup>6</sup>. We augmented field maps estimated in the correction step by scaling <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-2-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;msup&gt;&lt;mi mathvariant=&quot;bold&quot;&gt;f&lt;/mi&gt;&lt;mo&gt;&amp;#x2032;&lt;/mo&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;mo mathvariant=&quot;bold&quot;&gt;=&lt;/mo&gt;&lt;mi&gt;&amp;#x03B1;&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;bold&quot;&gt;f&lt;/mi&gt;&lt;/mrow&gt;&lt;mo mathvariant=&quot;bold&quot;&gt;+&lt;/mo&gt;&lt;mi&gt;&amp;#x03B2;&lt;/mi&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-4" style="width: 6.512em; display: inline-block;"><span style="display: inline-block; position: relative; width: 5.242em; height: 0px; font-size: 124%;"><span style="position: absolute; clip: rect(1.488em, 1005.24em, 2.786em, -1000em); top: -2.419em; left: 0em;"><span class="mrow" id="MathJax-Span-5"><span class="texatom" id="MathJax-Span-6"><span class="mrow" id="MathJax-Span-7"><span class="msup" id="MathJax-Span-8"><span style="display: inline-block; position: relative; width: 0.802em; height: 0px;"><span style="position: absolute; clip: rect(3.102em, 1000.45em, 4.147em, -1000em); top: -3.975em; left: 0em;"><span class="mi" id="MathJax-Span-9" style="font-family: MathJax_Main; font-weight: bold;">f<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.101em;"></span></span><span style="display: inline-block; width: 0px; height: 3.975em;"></span></span><span style="position: absolute; top: -4.338em; left: 0.532em;"><span class="mo" id="MathJax-Span-10" style="font-size: 70.7%; font-family: MathJax_Main;">′</span><span style="display: inline-block; width: 0px; height: 3.975em;"></span></span></span></span></span></span><span class="mo" id="MathJax-Span-11" style="font-family: MathJax_Main; font-weight: bold; padding-left: 0.278em;">=</span><span class="mi" id="MathJax-Span-12" style="font-family: MathJax_Math; font-style: italic; padding-left: 0.278em;">α</span><span class="texatom" id="MathJax-Span-13"><span class="mrow" id="MathJax-Span-14"><span class="mi" id="MathJax-Span-15" style="font-family: MathJax_Main; font-weight: bold;">f<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.101em;"></span></span></span></span><span class="mo" id="MathJax-Span-16" style="font-family: MathJax_Main; font-weight: bold; padding-left: 0.222em;">+</span><span class="mi" id="MathJax-Span-17" style="font-family: MathJax_Math; font-style: italic; padding-left: 0.222em;">β<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.007em;"></span></span></span><span style="display: inline-block; width: 0px; height: 2.419em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.312em; border-left: 0px solid; width: 0px; height: 1.324em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow class="MJX-TeXAtom-ORD"><msup><mi mathvariant="bold">f</mi><mo>′</mo></msup></mrow><mo mathvariant="bold">=</mo><mi>α</mi><mrow class="MJX-TeXAtom-ORD"><mi mathvariant="bold">f</mi></mrow><mo mathvariant="bold">+</mo><mi>β</mi></math></span></span><script type="math/tex" id="MathJax-Element-2">\bf{f'} = \alpha\bf{f}+\beta</script> with <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-3-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;&amp;#x03B1;&lt;/mi&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-18" style="width: 0.809em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.634em; height: 0px; font-size: 124%;"><span style="position: absolute; clip: rect(1.805em, 1000.6em, 2.603em, -1000em); top: -2.419em; left: 0em;"><span class="mrow" id="MathJax-Span-19"><span class="mi" id="MathJax-Span-20" style="font-family: MathJax_Math; font-style: italic;">α</span></span><span style="display: inline-block; width: 0px; height: 2.419em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.085em; border-left: 0px solid; width: 0px; height: 0.705em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>α</mi></math></span></span><script type="math/tex" id="MathJax-Element-3">\alpha</script> ranging from 0 to 3.15 and <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-4-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;&amp;#x03B2;&lt;/mi&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-21" style="width: 0.752em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.576em; height: 0px; font-size: 124%;"><span style="position: absolute; clip: rect(1.542em, 1000.58em, 2.786em, -1000em); top: -2.419em; left: 0em;"><span class="mrow" id="MathJax-Span-22"><span class="mi" id="MathJax-Span-23" style="font-family: MathJax_Math; font-style: italic;">β<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.007em;"></span></span></span><span style="display: inline-block; width: 0px; height: 2.419em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.312em; border-left: 0px solid; width: 0px; height: 1.258em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>β</mi></math></span></span><script type="math/tex" id="MathJax-Element-4">\beta</script> ranging from -200 to 200 Hz. Distorted images were then synthesized by using the discrete
+object approximation and simulating off-resonance using the field map <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-5-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;msup&gt;&lt;mi mathvariant=&quot;bold&quot;&gt;f&lt;/mi&gt;&lt;mo&gt;&amp;#x2032;&lt;/mo&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-24" style="width: 1.04em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.806em; height: 0px; font-size: 124%;"><span style="position: absolute; clip: rect(1.43em, 1000.81em, 2.535em, -1000em); top: -2.362em; left: 0em;"><span class="mrow" id="MathJax-Span-25"><span class="texatom" id="MathJax-Span-26"><span class="mrow" id="MathJax-Span-27"><span class="msup" id="MathJax-Span-28"><span style="display: inline-block; position: relative; width: 0.802em; height: 0px;"><span style="position: absolute; clip: rect(3.102em, 1000.45em, 4.147em, -1000em); top: -3.975em; left: 0em;"><span class="mi" id="MathJax-Span-29" style="font-family: MathJax_Main; font-weight: bold;">f<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.101em;"></span></span><span style="display: inline-block; width: 0px; height: 3.975em;"></span></span><span style="position: absolute; top: -4.338em; left: 0.532em;"><span class="mo" id="MathJax-Span-30" style="font-size: 70.7%; font-family: MathJax_Main;">′</span><span style="display: inline-block; width: 0px; height: 3.975em;"></span></span></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.362em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.071em; border-left: 0px solid; width: 0px; height: 1.084em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow class="MJX-TeXAtom-ORD"><msup><mi mathvariant="bold">f</mi><mo>′</mo></msup></mrow></math></span></span><script type="math/tex" id="MathJax-Element-5">\bf{f'}</script> and spiral
+trajectories with readout lengths of 2.520, 4.016, 5.320,
+and 7.936ms. We split data into 23, 5, and 5 subjects for training, validation,
+and testing. 
+
+ 
+
+<br> <br><u>Network Training</u><br>
+
+Our model was
+trained in a combination of L1 loss (<span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-6-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msub&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi class=&quot;MJX-tex-caligraphic&quot; mathvariant=&quot;script&quot;&gt;L&lt;/mi&gt;&lt;/mrow&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-31" style="width: 1.385em; display: inline-block;"><span style="display: inline-block; position: relative; width: 1.094em; height: 0px; font-size: 124%;"><span style="position: absolute; clip: rect(1.484em, 1001.09em, 2.685em, -1000em); top: -2.362em; left: 0em;"><span class="mrow" id="MathJax-Span-32"><span class="msubsup" id="MathJax-Span-33"><span style="display: inline-block; position: relative; width: 1.119em; height: 0px;"><span style="position: absolute; clip: rect(3.097em, 1000.66em, 4.169em, -1000em); top: -3.975em; left: 0em;"><span class="texatom" id="MathJax-Span-34"><span class="mrow" id="MathJax-Span-35"><span class="mi" id="MathJax-Span-36" style="font-family: MathJax_Caligraphic;">L</span></span></span><span style="display: inline-block; width: 0px; height: 3.975em;"></span></span><span style="position: absolute; top: -3.825em; left: 0.69em;"><span class="mn" id="MathJax-Span-37" style="font-size: 70.7%; font-family: MathJax_Main;">1</span><span style="display: inline-block; width: 0px; height: 3.975em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.362em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.257em; border-left: 0px solid; width: 0px; height: 1.203em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow class="MJX-TeXAtom-ORD"><mi class="MJX-tex-caligraphic" mathvariant="script">L</mi></mrow><mn>1</mn></msub></math></span></span><script type="math/tex" id="MathJax-Element-6">\mathcal{L}_1</script>) and gradient difference loss (<span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-7-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msub&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi class=&quot;MJX-tex-caligraphic&quot; mathvariant=&quot;script&quot;&gt;L&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;g&lt;/mi&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-38" style="width: 2.077em; display: inline-block;"><span style="display: inline-block; position: relative; width: 1.671em; height: 0px; font-size: 124%;"><span style="position: absolute; clip: rect(1.484em, 1001.67em, 2.83em, -1000em); top: -2.362em; left: 0em;"><span class="mrow" id="MathJax-Span-39"><span class="msubsup" id="MathJax-Span-40"><span style="display: inline-block; position: relative; width: 1.685em; height: 0px;"><span style="position: absolute; clip: rect(3.097em, 1000.66em, 4.169em, -1000em); top: -3.975em; left: 0em;"><span class="texatom" id="MathJax-Span-41"><span class="mrow" id="MathJax-Span-42"><span class="mi" id="MathJax-Span-43" style="font-family: MathJax_Caligraphic;">L</span></span></span><span style="display: inline-block; width: 0px; height: 3.975em;"></span></span><span style="position: absolute; top: -3.825em; left: 0.69em;"><span class="texatom" id="MathJax-Span-44"><span class="mrow" id="MathJax-Span-45"><span class="mi" id="MathJax-Span-46" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">g<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.002em;"></span></span><span class="mi" id="MathJax-Span-47" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.002em;"></span></span><span class="mi" id="MathJax-Span-48" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">l</span></span></span><span style="display: inline-block; width: 0px; height: 3.975em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.362em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.437em; border-left: 0px solid; width: 0px; height: 1.383em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow class="MJX-TeXAtom-ORD"><mi class="MJX-tex-caligraphic" mathvariant="script">L</mi></mrow><mrow class="MJX-TeXAtom-ORD"><mi>g</mi><mi>d</mi><mi>l</mi></mrow></msub></math></span></span><script type="math/tex" id="MathJax-Element-7">\mathcal{L}_{gdl}</script>)<sup>22</sup> between the prediction and ground truth as <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-8-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi class=&quot;MJX-tex-caligraphic&quot; mathvariant=&quot;script&quot;&gt;L&lt;/mi&gt;&lt;/mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msub&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi class=&quot;MJX-tex-caligraphic&quot; mathvariant=&quot;script&quot;&gt;L&lt;/mi&gt;&lt;/mrow&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;msub&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi class=&quot;MJX-tex-caligraphic&quot; mathvariant=&quot;script&quot;&gt;L&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;g&lt;/mi&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-49" style="width: 7.549em; display: inline-block;"><span style="display: inline-block; position: relative; width: 6.048em; height: 0px; font-size: 124%;"><span style="position: absolute; clip: rect(1.484em, 1006.05em, 2.83em, -1000em); top: -2.362em; left: 0em;"><span class="mrow" id="MathJax-Span-50"><span class="texatom" id="MathJax-Span-51"><span class="mrow" id="MathJax-Span-52"><span class="mi" id="MathJax-Span-53" style="font-family: MathJax_Caligraphic;">L</span></span></span><span class="mo" id="MathJax-Span-54" style="font-family: MathJax_Main; padding-left: 0.278em;">=</span><span class="msubsup" id="MathJax-Span-55" style="padding-left: 0.278em;"><span style="display: inline-block; position: relative; width: 1.119em; height: 0px;"><span style="position: absolute; clip: rect(3.097em, 1000.66em, 4.169em, -1000em); top: -3.975em; left: 0em;"><span class="texatom" id="MathJax-Span-56"><span class="mrow" id="MathJax-Span-57"><span class="mi" id="MathJax-Span-58" style="font-family: MathJax_Caligraphic;">L</span></span></span><span style="display: inline-block; width: 0px; height: 3.975em;"></span></span><span style="position: absolute; top: -3.825em; left: 0.69em;"><span class="mn" id="MathJax-Span-59" style="font-size: 70.7%; font-family: MathJax_Main;">1</span><span style="display: inline-block; width: 0px; height: 3.975em;"></span></span></span></span><span class="mo" id="MathJax-Span-60" style="font-family: MathJax_Main; padding-left: 0.222em;">+</span><span class="msubsup" id="MathJax-Span-61" style="padding-left: 0.222em;"><span style="display: inline-block; position: relative; width: 1.685em; height: 0px;"><span style="position: absolute; clip: rect(3.097em, 1000.66em, 4.169em, -1000em); top: -3.975em; left: 0em;"><span class="texatom" id="MathJax-Span-62"><span class="mrow" id="MathJax-Span-63"><span class="mi" id="MathJax-Span-64" style="font-family: MathJax_Caligraphic;">L</span></span></span><span style="display: inline-block; width: 0px; height: 3.975em;"></span></span><span style="position: absolute; top: -3.825em; left: 0.69em;"><span class="texatom" id="MathJax-Span-65"><span class="mrow" id="MathJax-Span-66"><span class="mi" id="MathJax-Span-67" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">g<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.002em;"></span></span><span class="mi" id="MathJax-Span-68" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.002em;"></span></span><span class="mi" id="MathJax-Span-69" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">l</span></span></span><span style="display: inline-block; width: 0px; height: 3.975em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.362em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.437em; border-left: 0px solid; width: 0px; height: 1.383em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow class="MJX-TeXAtom-ORD"><mi class="MJX-tex-caligraphic" mathvariant="script">L</mi></mrow><mo>=</mo><msub><mrow class="MJX-TeXAtom-ORD"><mi class="MJX-tex-caligraphic" mathvariant="script">L</mi></mrow><mn>1</mn></msub><mo>+</mo><msub><mrow class="MJX-TeXAtom-ORD"><mi class="MJX-tex-caligraphic" mathvariant="script">L</mi></mrow><mrow class="MJX-TeXAtom-ORD"><mi>g</mi><mi>d</mi><mi>l</mi></mrow></msub></math></span></span><script type="math/tex" id="MathJax-Element-8">\mathcal{L} = \mathcal{L}_1+\mathcal{L}_{gdl}</script>. In addition to <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-9-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msub&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi class=&quot;MJX-tex-caligraphic&quot; mathvariant=&quot;script&quot;&gt;L&lt;/mi&gt;&lt;/mrow&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-70" style="width: 1.385em; display: inline-block;"><span style="display: inline-block; position: relative; width: 1.094em; height: 0px; font-size: 124%;"><span style="position: absolute; clip: rect(1.484em, 1001.09em, 2.685em, -1000em); top: -2.362em; left: 0em;"><span class="mrow" id="MathJax-Span-71"><span class="msubsup" id="MathJax-Span-72"><span style="display: inline-block; position: relative; width: 1.119em; height: 0px;"><span style="position: absolute; clip: rect(3.097em, 1000.66em, 4.169em, -1000em); top: -3.975em; left: 0em;"><span class="texatom" id="MathJax-Span-73"><span class="mrow" id="MathJax-Span-74"><span class="mi" id="MathJax-Span-75" style="font-family: MathJax_Caligraphic;">L</span></span></span><span style="display: inline-block; width: 0px; height: 3.975em;"></span></span><span style="position: absolute; top: -3.825em; left: 0.69em;"><span class="mn" id="MathJax-Span-76" style="font-size: 70.7%; font-family: MathJax_Main;">1</span><span style="display: inline-block; width: 0px; height: 3.975em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.362em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.257em; border-left: 0px solid; width: 0px; height: 1.203em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow class="MJX-TeXAtom-ORD"><mi class="MJX-tex-caligraphic" mathvariant="script">L</mi></mrow><mn>1</mn></msub></math></span></span><script type="math/tex" id="MathJax-Element-9">\mathcal{L}_1</script>, <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-10-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msub&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi class=&quot;MJX-tex-caligraphic&quot; mathvariant=&quot;script&quot;&gt;L&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;g&lt;/mi&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-77" style="width: 2.077em; display: inline-block;"><span style="display: inline-block; position: relative; width: 1.671em; height: 0px; font-size: 124%;"><span style="position: absolute; clip: rect(1.484em, 1001.67em, 2.83em, -1000em); top: -2.362em; left: 0em;"><span class="mrow" id="MathJax-Span-78"><span class="msubsup" id="MathJax-Span-79"><span style="display: inline-block; position: relative; width: 1.685em; height: 0px;"><span style="position: absolute; clip: rect(3.097em, 1000.66em, 4.169em, -1000em); top: -3.975em; left: 0em;"><span class="texatom" id="MathJax-Span-80"><span class="mrow" id="MathJax-Span-81"><span class="mi" id="MathJax-Span-82" style="font-family: MathJax_Caligraphic;">L</span></span></span><span style="display: inline-block; width: 0px; height: 3.975em;"></span></span><span style="position: absolute; top: -3.825em; left: 0.69em;"><span class="texatom" id="MathJax-Span-83"><span class="mrow" id="MathJax-Span-84"><span class="mi" id="MathJax-Span-85" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">g<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.002em;"></span></span><span class="mi" id="MathJax-Span-86" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.002em;"></span></span><span class="mi" id="MathJax-Span-87" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">l</span></span></span><span style="display: inline-block; width: 0px; height: 3.975em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.362em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.437em; border-left: 0px solid; width: 0px; height: 1.383em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow class="MJX-TeXAtom-ORD"><mi class="MJX-tex-caligraphic" mathvariant="script">L</mi></mrow><mrow class="MJX-TeXAtom-ORD"><mi>g</mi><mi>d</mi><mi>l</mi></mrow></msub></math></span></span><script type="math/tex" id="MathJax-Element-10">\mathcal{L}_{gdl}</script> is known to provide a sharp image
+prediction. We used Adam optimizer<sup>23</sup> with a learning rate of 1e-3, a mini-batch size of 64, and
+200 epochs. We implemented our network with Keras using Tensorflow backend.     <br><br><u>Experiments</u> <br>
+
+We
+investigate the effectiveness of the AG module by varying depth-wise
+separable convolution filter sizes, f<sub>1</sub>
+and f<sub>2</sub> of the first and second AG modules. Two cascaded convolutions
+in an AG module uses the same filter size of either f<sub>1</sub> or f<sub>2</sub>.
+For comparison, we also deblur images with various existing methods: the
+previous CNN architecture<sup>15</sup>, multi-frequency interpolation (<strong>MFI</strong>)<sup>7</sup>, and iterative reconstruction (<strong>IR</strong>)<sup>24</sup>. Note that field maps are necessary for deblurring in the latter two methods, so we assume
+ground truth field maps are known for those two, although those would not be available
+in practice. For all those methods,
+dynamic images were deblurred frame-by-frame. We report
+quantitative quality comparison using peak signal-to-noise ratio (<strong>PSNR</strong>), structural similarity (<strong>SSIM</strong>), and high-frequency error norm (<strong>HFEN</strong>). 
+
+ 
+
+ </div><div class="divSectionBlock"><h3>Results and Discussion</h3><strong>Figure 2</strong> shows the
+intermediate feature maps. We observe that the attention map <strong>M</strong><sub>1</sub> from
+the first AG module tends to focus on low-level structures such as tissue, air,
+or air-tissue boundaries with a different focus across channels, while <strong>M</strong><sub>2</sub>
+from the second AG focuses on a high-level channel dependency. <br><strong>Table 1</strong> 
+
+shows that adding an AG module on top of CNN layers
+improves deblurring performance with a slight overhead and less sensitivity to the
+kernel size. An extensive comparison with existing attention approaches<sup>17,18,25</sup> 
+
+applicable to this task remains as
+future work. <br>
+
+<strong>Figure 3</strong> shows that AG-CNN outperforms the previous CNN and MFI using
+a reference field map in multiple readout duration lengths.<strong> Figure 4</strong> contains representative image frames. Blurring
+of the lips and soft palate are not perfectly resolved with the previous CNN
+method. AG-CNN provides substantially improved depiction of these and other
+air-tissue boundaries. </div><div class="divSectionBlock"><h3>Conclusion</h3>We demonstrate AG-CNN deblurring for 1.5T
+spiral speech RT-MRI. Adding an AG module on top of CNN layer improves deblurring
+performance by &gt;1dB
+PSNR, &gt;0.014 SSIM, and &gt;0.029 HFEN compared to
+the previous CNN architecture and provides results visually comparable to
+reference IR method with ~10 times faster computation, and without the need for
+a field map. </div><div class="divSectionBlock"><h3>Acknowledgements</h3>This
+work was supported by NIH Grant R01DC007124 and NSF Grant 1514544.</div><div class="divSectionBlock"><h3>References</h3><p>1. Meyer CH, Hu BS, Nishimura DG, Macovski A. Fast spiral coronary artery imaging. Magn Reson Med. 1992;28:202–213. </p><p>2.
+ Schenck JF. The role of magnetic susceptibility in magnetic resonance 
+imaging: MRI magnetic compatibility of the first and second kinds. Med 
+Phys. 1996;23:815–850. </p><p>3. Block KT, Frahm J. Spiral imaging: A critical appraisal. J Magn Reson Imag. 2005;21:657–668. </p><p>4.
+ Sutton BP, Noll DC, Fessler JA. Dynamic field map estimation using a 
+spiral-in/spiral-out acquisition. Magn Reson Med. 2004;51:1194–1204. </p><p>5.
+ Feng X, Blemker SS, Inouye J, Pelland CM, Zhao L, Meyer CH. Assessment 
+of velopharyngeal function with dual-planar high-resolution real-time 
+spiral dynamic MRI. Magn Reson Med. 2018;80:1467–1474. </p><p>6. Lim Y, 
+Lingala SG, Narayanan SS, Nayak KS. Dynamic off-resonance correction for
+ spiral real-time MRI of speech. Magn Reson Med. 2019;81:234–246. </p><p>7.
+ Man LC, Pauly JM, Macovski  A. Multifrequency interpolation for fast 
+off-resonance correction. Magn Reson Med. 1997;37:785–792. </p><p>8. 
+Nayak KS, Tsai CM, Meyer CH, Nishimura DG. Efficient off-resonance 
+correction for spiral imaging. Magn Reson Med. 2001;45:521–524. </p><p>9.
+ Noll DC, Pauly JM, Meyer CH, Nishimura DG, Macovskj A. Deblurring for 
+non‐2D fourier transform magnetic resonance imaging. Magn Reson Med. 
+1992;25:319–333. </p><p>10. Chen W, Meyer CH. Semiautomatic off-resonance correction in spiral imaging. Magn Reson Med. 2008;59:1212–1219. </p><p>11.
+ Lim Y, Lingala SG, Narayanan S, Nayak KS. Improved Depiction of Tissue 
+Boundaries in Vocal Tract Real-time MRI using Automatic Off-resonance 
+Correction. In Proc of INTERSPEECH, San Francisco, USA, Sep 2016. pp. 
+1765–1769. </p><p>12. Man LC, Pauly JM, Macovski A. Improved automatic 
+off-resonance correction without a field map in spiral imaging. Magn 
+Reson Med. 1997;37:906–913. </p><p>13. Zeng DY, Shaikh J, Holmes S, 
+Brunsing RL, Pauly JM, Nishimura DG, Vasanawala SS, Cheng JY. Deep 
+residual network for off-resonance artifact correction with application 
+to pediatric body MRA with 3D cones. Magn Reson Med. 2019;82:1398–1411. </p><p>14.
+ Lim Y, Narayanan S, Nayak KS. Calibrationless deblurring of spiral 
+RT-MRI of speech production using convolutional neural networks. In Proc
+ of ISMRM 27th Scientific Session, Montreal, Canada, May 2019. p. 673. </p><p>15.
+ Ye JC, Sung WK. Understanding Geometry of Encoder-Decoder CNNs. In Proc
+ of the 36th ICML, Long Beach, California, PMLR 97, 2019. </p><p>16. Hu 
+J, Shen L, Sun G. Squeeze-and-excitation networks. In Proc of IEEE/CVF 
+Conf on CVPR, Salt Lake City, UT, 2018, pp. 7132–7141. </p><p>17. Woo S, Park J, Lee J, Kweon IS. CBAM: Convolutional block attention module. In Proc of ECCV, 2018. </p><p>18.
+ Schlemper J, Oktay O, Schaap M, Heinrich M, Kainz B, Glocker B, 
+Rueckert D. Attention gated networks: Learning to leverage salient 
+regions in medical images. Med Image Anal. 2019;53:197–207. </p><p>19. Chollet F. Xception: Deep learning with depthwise separable convolutions. In Proc of IEEE/CVF Conf on CVPR, 2017.<br></p><p>20.
+ Lingala SG, Zhu Y, Kim Y-C, Toutios A, Narayanan S, Nayak KS. A fast 
+and flexible MRI system for the study of dynamic vocal tract shaping. 
+Magn Reson Med. 2017;77:112–125. </p><p>21. Mathieu M, Couprie C, LeCun Y. Deep multi-scale video prediction beyond mean square error. In Proc of ICLR. 2015. </p><p>22. Kingma DP, Ba J. Adam: A method for stochastic optimization. arXiv:1412.6980. 2014. </p><p>23.
+ Sutton BP, Noll DC, Fessler JA. Fast, iterative image reconstruction 
+for MRI in the presence of field inhomogeneities. IEEE Trans Med 
+Imaging. 2003;22:178–188.<br></p></div>
+</div>
+        
+</div>
+            
+<div class="col-lg-3">
+    <div id="ctl00_MainContent_ctl00_figures">
+        <h3>Figures</h3>
+        <div id="ctl00_MainContent_ctl00_figuresWrapper" class="figuresWrapper">
+	
+        
+        <div class="divSectionBlock"><a id="ctl00_MainContent_ctl00_lnkImage_1" class="thumbnail" data-lightbox="figureImages" title="Figure 1. Network architecture. The attention gate (AG) module is integrated with a previous CNN architecture14. The AG consists of two cascaded depth-wise separable convolutions19&nbsp;(each consisting of a channel-wise convolution followed by a 1x1 convolution), one with ReLU and one with sigmoid activations to generate attention maps (M) in the range from 0 to 1. The attention map is then multiplied back by the convolution output (F) (i.e., F’ = M(F)$$$\otimes$$$F) element-by-element to emphasize " href="https://index.mirasmart.com/ISMRM2020/PDFfiles/images/708/ISMRM2020-000708_Fig1.jpeg" target="_blank"><img src="1005_files/ISMRM2020-000708_Fig1.jpeg" style="text-align:center;" border="0"></a><div class="thumbnailCaptions"><strong>Figure
+1. Network architecture. </strong>The attention
+gate (<strong>AG</strong>) module is integrated with a previous CNN architecture<sup>14</sup>.
+The AG consists of two cascaded depth-wise separable convolutions<sup>19</sup> (each
+consisting of a channel-wise convolution followed by a 1x1 convolution), one
+with ReLU and one with sigmoid activations to generate attention maps (<strong>M</strong>)
+in the range from 0 to 1. The attention map is then multiplied back by the convolution
+output (<strong>F</strong>) (i.e., <strong>F’</strong> <strong>= M(F)</strong><span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-11-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo&gt;&amp;#x2297;&lt;/mo&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-88" style="width: 1.04em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.806em; height: 0px; font-size: 124%;"><span style="position: absolute; clip: rect(1.606em, 1000.75em, 2.618em, -1000em); top: -2.362em; left: 0em;"><span class="mrow" id="MathJax-Span-89"><span class="mo" id="MathJax-Span-90" style="font-family: MathJax_Main;">⊗</span></span><span style="display: inline-block; width: 0px; height: 2.362em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.174em; border-left: 0px solid; width: 0px; height: 0.969em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⊗</mo></math></span></span><script type="math/tex" id="MathJax-Element-11">\otimes</script><strong>F</strong>) element-by-element to emphasize
+important elements in space and across channels. </div><br><a id="ctl00_MainContent_ctl00_lnkImage_2" class="thumbnail" data-lightbox="figureImages" title="Figure 2. (Animated GIF)&nbsp;Intermediate feature maps. We observe that the two AG modules build hierarchical attention. M1 from the first AG module tends to focus on low-level structures such as air, tissue, or air-tissue boundaries with a different focus across channels while M2 focuses on a high-level channel dependency. We only visualize 4 and 3 channels out of 64 and 32 channels for the first and second AG modules, respectively, due to space and file size constraints." href="https://index.mirasmart.com/ISMRM2020/PDFfiles/images/708/ISMRM2020-000708_Fig2.gif" target="_blank"><img src="1005_files/ISMRM2020-000708_Fig2.gif" style="text-align:center;" border="0"></a><div class="thumbnailCaptions"><strong>Figure 2. (Animated GIF) </strong><strong>Intermediate feature maps.</strong> We observe that the two AG modules build
+hierarchical attention. <strong>M</strong><sub>1</sub> from the first AG module tends to
+focus on low-level structures such as air, tissue, or air-tissue boundaries
+with a different focus across channels while <strong>M</strong><sub>2</sub> focuses on a
+high-level channel dependency. We only visualize 4 and 3 channels out of 64 and
+32 channels for the first and second AG modules, respectively, due to space and
+file size constraints. </div><br><a id="ctl00_MainContent_ctl00_lnkImage_3" class="thumbnail" data-lightbox="figureImages" title="Table 1. Deblurring performance is improved by adding the proposed AG module on top of the CNN layer. We obtain performance gains of &gt; 1 dB PSNR, &gt; 0.014 SSIM, and &gt; 0.029 HFEN on the test dataset (5 subjects, &gt; 8K frames) with less sensitivity to the size of depth-wise separable convolution kernel in the AG module. Those evaluation metrics were averaged across all the test image frames. The number of parameters is slightly increased due to depth-wise separable convolutions in the AG module. We " href="https://index.mirasmart.com/ISMRM2020/PDFfiles/images/708/ISMRM2020-000708_Fig3.png" target="_blank"><img src="1005_files/ISMRM2020-000708_Fig3.png" style="text-align:center;" border="0"></a><div class="thumbnailCaptions"><strong>Table
+1</strong>. Deblurring performance is improved by adding the proposed
+AG module on top of the CNN layer. We obtain performance gains of &gt; 1 dB PSNR, &gt;
+0.014 SSIM, and &gt; 0.029 HFEN on the test dataset (5 subjects, &gt; 8K frames) with
+less sensitivity to the size of depth-wise separable convolution kernel in the AG
+module. Those evaluation metrics were averaged across all the test image frames.
+The number of parameters is slightly increased due to depth-wise separable
+convolutions in the AG module. We chose f<sub>1</sub> = f<sub>2</sub> = 3 for
+the rest of this study.</div><br><a id="ctl00_MainContent_ctl00_lnkImage_4" class="thumbnail" data-lightbox="figureImages" title="Figure 3. Quantitative comparison of deblurring performance on multiple spiral trajectories.&nbsp;Four trajectories are considered with varying readout lengths of 2.52, 4.016, 5.320, and 7.936 ms. Overall, AG-CNN outperforms the previous CNN14 as well as MFI7&nbsp;for PSNR, SSIM, HFEN. It should be noted that we assume a reference field map is known for both MFI and IR23 methods although it would not be available in practice. IR should be considered as an upper bound of the maximum deblurring performance " href="https://index.mirasmart.com/ISMRM2020/PDFfiles/images/708/ISMRM2020-000708_Fig4.png" target="_blank"><img src="1005_files/ISMRM2020-000708_Fig4.png" style="text-align:center;" border="0"></a><div class="thumbnailCaptions"><strong>Figure 3</strong>. <strong>Quantitative comparison of deblurring performance on multiple spiral trajectories.</strong>
+ Four trajectories are considered with varying readout lengths of 2.52, 
+4.016, 5.320, and 7.936 ms. Overall, AG-CNN outperforms the previous CNN<sup>14</sup> as well as MFI<sup>7</sup> for PSNR, SSIM, HFEN. It should be noted that we assume a reference field map is known for both MFI and IR<sup>23</sup>
+ methods although it would not be available in practice. IR should be 
+considered as an upper bound of the maximum deblurring performance 
+achievable for a given ground truth field map. </div><br><a id="ctl00_MainContent_ctl00_lnkImage_5" class="thumbnail" data-lightbox="figureImages" title="Figure 4. Qualitative comparison of deblurred images.&nbsp;From top to bottom: images after deblurring with various methods, difference images with respect to ground truth, and an intensity vs time plot. The proposed AG-CNN successfully resolves the blurring artifact especially at the lips and soft palate, which is difficult to resolve with the previous CNN14. The AG-CNN is also visually comparable to IR method23, which uses the ground truth field map and is computationally expensive (e.g., comp. tim" href="https://index.mirasmart.com/ISMRM2020/PDFfiles/images/708/ISMRM2020-000708_Fig5.png" target="_blank"><img src="1005_files/ISMRM2020-000708_Fig5.png" style="text-align:center;" border="0"></a><div class="thumbnailCaptions"><strong>Figure 4. Qualitative comparison of deblurred images.</strong>
+ From top to bottom: images after deblurring with various methods, 
+difference images with respect to ground truth, and an intensity vs time
+ plot. The proposed AG-CNN successfully resolves the blurring artifact 
+especially at the lips and soft palate, which is difficult to resolve 
+with the previous CNN<sup>14</sup>. The AG-CNN is also visually comparable to IR method<sup>23</sup>,
+ which uses the ground truth field map and is computationally expensive 
+(e.g., comp. time: ~1.6 s/frame) compared to the AG-CNN (~0.15 s/frame 
+on a single CPU in inference time).</div><br></div>
+</div>
+    </div>
+</div>
+<div id="ctl00_MainContent_ctl00_divFooter" style="font-weight:bold">
+    <div class="col-lg-5 col-md-5 col-sm-5">
+        Proc. Intl. Soc. Mag. Reson. Med. 28 (2020)
+    </div>
+    <span id="ctl00_MainContent_ctl00_lblProgramNumber" class="col-7 col-md-7 col-sm-7">1005</span>
+</div>
+
+
+        </div>
+    
+
+
+<div style="position: absolute; width: 0px; height: 0px; overflow: hidden; padding: 0px; border: 0px none; margin: 0px;"><div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; padding: 0px; border: 0px none; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: normal; font-size-adjust: none; font-family: MathJax_Caligraphic, sans-serif;"></div></div></body></html>
